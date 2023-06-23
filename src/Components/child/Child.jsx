@@ -38,6 +38,7 @@ const Child = ({sub}) => {
         options.forEach((item)=>{
           if(item.checked){
             ans=item.value;
+            item.checked=false;
           }
         })
         if(ans===''){

@@ -132,7 +132,7 @@ html{
     }
     .container {
         justify-content: center;
-        min-height: 60rem;
+        min-height: 70rem;
         transition: 2s;
         animation: alternate-reverse;
     }
