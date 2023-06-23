@@ -79,6 +79,7 @@ span {
         left: auto;
         transform: none;
         margin: 0 auto;
+        height: auto;
     }
 
     .quiz-area h2 {
