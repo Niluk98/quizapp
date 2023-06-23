@@ -1,0 +1,88 @@
+/* Default styles */
+
+html {
+    font-size: 62.8%;
+}
+
+body {
+    background: #7cc6fe;
+}
+
+.container-fluid {
+    position: relative;
+    height: 60rem;
+    color: #fff;
+    transition: 0.5s;
+}
+
+span {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.quiz-area {
+    position: relative;
+    height: 50rem; /* Set a fixed height */
+    width: 50rem;
+    margin: 0 auto; /* Center the container horizontally */
+    border-radius: 0.5rem;
+    background: #252d4a;
+    box-shadow: 1rem 1rem 42rem rgba(0, 0, 0, 0.75);
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.quiz-area h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+    margin: 0; /* Remove any margin */
+    line-height: 1.2; /* Adjust the line height for consistent spacing */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide any overflowing content */
+    text-overflow: ellipsis; /* Add an ellipsis (...) for truncated text */
+}
+
+.quiz-options {
+    position: relative;
+    min-height: 80%;
+    margin-top: 10%;
+}
+
+/* Responsive styles for tablet screens */
+
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        height: auto;
+    }
+
+    .quiz-area {
+        width: 90%;
+        max-width: 40rem;
+        padding: 2rem;
+    }
+
+    .quiz-area h2 {
+        font-size: 2.5rem;
+        padding: 10rem 10rem;
+    }
+}
+
+/* Responsive styles for mobile screens */
+
+@media only screen and (max-width: 480px) {
+    .quiz-area {
+        width: 90%;
+        max-width: 30rem;
+        padding: 1rem;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 0 auto;
+    }
+
+    .quiz-area h2 {
+        font-size: 2rem;
+        padding: 5rem 5rem;
+    }
+}
