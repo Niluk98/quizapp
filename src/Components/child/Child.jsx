@@ -103,7 +103,7 @@ const Child = ({sub}) => {
         </div>
         <br /> <br />
         
-        {points < 2 ?<h2 style={{color:'red'}}>Poor!!</h2>  : points <=3 ? <h2 style={{color:'orange'}}>Good!!</h2>: <h2 style={{color:'green'}}>Awesome!!</h2>}
+        {points ==0?<h2 style={{color:'red'}}>Failed!!</h2> :points < 2 ?<h2 style={{color:'red'}}>Poor!!</h2>  : points <=3 ? <h2 style={{color:'orange'}}>Good!!</h2>: <h2 style={{color:'green'}}>Awesome!!</h2>}
 
         
     </div>
